@@ -1,4 +1,4 @@
-import logo from './logo.png';
+import logo from './etc/sink_white.png';
 import './App.css';
 
 function App() {
