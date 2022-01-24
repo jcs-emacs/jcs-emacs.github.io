@@ -7,7 +7,7 @@
  *                   Copyright © 2022 by Shen, Jen-Chieh $
  */
 import React from 'react';
-import { Button, Container, Navbar, Nav } from 'react-bootstrap';
+import { Container, Navbar, Nav } from 'react-bootstrap';
 
 class ENavbar extends React.Component {
   state = {};
