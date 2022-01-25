@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 import ENavbar from './components/ENavbar.js';
+import EBanner from './components/EBanner.js';
 import EFooter from './components/EFooter.js';
 
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <ENavbar />
+        <EBanner />
         <EFooter />
       </React.Fragment>
     );
