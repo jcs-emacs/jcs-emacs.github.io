@@ -8,6 +8,7 @@ import EFooter from './components/EFooter.js';
 
 class App extends React.Component {
   constructor() {
+    super();
     document.title = 'J C S • E M A C S';
   }
 
