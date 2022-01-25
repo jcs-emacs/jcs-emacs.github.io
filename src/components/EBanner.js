@@ -7,7 +7,7 @@
  *                   Copyright © 2022 by Shen, Jen-Chieh $
  */
 import React from 'react';
-import { Container, Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 import banner from '../etc/sink_white.png';
 
@@ -21,7 +21,7 @@ class Ebanner extends React.Component {
       <>
         <div className="text-center">
           <div>
-            <img src= { banner }/>
+            <img src= { banner } alt="banner" />
           </div>
           <br/>
           <div className="text-info h5">

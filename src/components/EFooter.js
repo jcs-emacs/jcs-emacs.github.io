@@ -7,7 +7,6 @@
  *                   Copyright © 2022 by Shen, Jen-Chieh $
  */
 import React from 'react';
-import { Container } from 'react-bootstrap';
 
 class EFooter extends React.Component {
   state = {};

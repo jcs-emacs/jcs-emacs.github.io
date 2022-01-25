@@ -11,7 +11,6 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 
 import { SiGithub } from 'react-icons/si';
 import { BsNewspaper } from 'react-icons/bs';
-import { BsQuestion } from 'react-icons/bs';
 import { FaQuestion } from 'react-icons/fa';
 import { GiLaurelsTrophy } from 'react-icons/gi';
 
