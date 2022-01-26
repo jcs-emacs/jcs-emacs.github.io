@@ -19,7 +19,7 @@ class ENavbar extends React.Component {
   render () {
     return (
       <>
-        <Navbar variant="dark mb-auto">
+        <Navbar variant="dark mb-auto p-4">
           <Container>
             <Navbar.Brand href="">JCS-EMACS</Navbar.Brand>
             <Nav className="ms-auto">
