@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-image: url("./etc/background.png");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .App-logo {
@@ -39,4 +45,9 @@
 
 body {
   background-color: #1E1E1E;
+}
+
+.splide__pagination__page {
+  margin-left: 10px;
+  margin-right: 10px;
 }

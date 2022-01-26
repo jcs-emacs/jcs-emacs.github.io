@@ -41,7 +41,7 @@ class ECarousel extends React.Component {
                   ⮞
                 </button>
               </div>
-            )} className="px-5 pb-4">
+            )} className="px-5 pb-5">
               <SplideSlide>
                 <img src={ screenshot_1 } alt="Slide 1" width="100%"/>
               </SplideSlide>
