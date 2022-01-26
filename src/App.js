@@ -5,6 +5,7 @@ import './App.css';
 
 import ENavbar from './components/ENavbar.js';
 import EBanner from './components/EBanner.js';
+import ECarousel from './components/ECarousel.js';
 import EFooter from './components/EFooter.js';
 
 class App extends React.Component {
@@ -18,6 +19,7 @@ class App extends React.Component {
       <React.Fragment>
         <ENavbar />
         <EBanner />
+        <ECarousel />
         <EFooter />
       </React.Fragment>
     );
