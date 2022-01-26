@@ -28,16 +28,16 @@ class ECarousel extends React.Component {
               autoplay: true,
               lazyLoad: 'nearby',
               speed: 2000,
-              interval: 2000,
+              interval: 3000,
               rewind: true,
+              drag: true,
+              waitForTransition: false,
             }} renderControls={() => (
               <div className="splide__arrows">
-                <button className="splide__arrow splide__arrow--prev"
-                        style={{ width: '25px', height: '25px' }}>
+                <button className="splide__arrow splide__arrow--prev">
                   ⮜
                 </button>
-                <button className="splide__arrow splide__arrow--next"
-                        style={{ width: '25px', height: '25px' }}>
+                <button className="splide__arrow splide__arrow--next">
                   ⮞
                 </button>
               </div>
