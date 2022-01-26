@@ -7,7 +7,9 @@
  *                   Copyright © 2022 by Shen, Jen-Chieh $
  */
 import React from 'react';
-import { Container, Carousel } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
+
+import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 import screenshot_1 from '../etc/screenshot/1.png';
 import screenshot_2 from '../etc/screenshot/2.png';
@@ -20,30 +22,44 @@ class ECarousel extends React.Component {
   render () {
     return (
       <>
-        <Container className="p-5">
-          <Carousel>
-            <Carousel.Item>
-              <img className="d-block w-100" alt="Slide 1"
-                   src= { screenshot_1 } />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block w-100" alt="Slide 2"
-                   src= { screenshot_2 } />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block w-100" alt="Slide 3"
-                   src= { screenshot_3 } />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block w-100" alt="Slide 4"
-                   src= { screenshot_4 } />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block w-100" alt="Slide 5"
-                   src= { screenshot_5 } />
-            </Carousel.Item>
-          </Carousel>
-        </Container>
+        <div className="p-4">
+          <Container className="p-5">
+            <Splide options={{
+              autoplay: true,
+              lazyLoad: 'nearby',
+              speed: 2000,
+              interval: 2000,
+              rewind: true,
+            }} renderControls={() => (
+              <div className="splide__arrows">
+                <button className="splide__arrow splide__arrow--prev"
+                        style={{ width: '25px', height: '25px' }}>
+                  ⮜
+                </button>
+                <button className="splide__arrow splide__arrow--next"
+                        style={{ width: '25px', height: '25px' }}>
+                  ⮞
+                </button>
+              </div>
+            )} className="px-5 pb-4">
+              <SplideSlide>
+                <img src={ screenshot_1 } alt="Slide 1" width="100%"/>
+              </SplideSlide>
+              <SplideSlide>
+                <img src={ screenshot_2 } alt="Slide 2" width="100%"/>
+              </SplideSlide>
+              <SplideSlide>
+                <img src={ screenshot_3 } alt="Slide 3" width="100%"/>
+              </SplideSlide>
+              <SplideSlide>
+                <img src={ screenshot_4 } alt="Slide 4" width="100%"/>
+              </SplideSlide>
+              <SplideSlide>
+                <img src={ screenshot_5 } alt="Slide 5" width="100%"/>
+              </SplideSlide>
+            </Splide>
+          </Container>
+        </div>
       </>);
   }
 }

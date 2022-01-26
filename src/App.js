@@ -1,6 +1,7 @@
 import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.css';
+import '@splidejs/splide/dist/css/splide.min.css';
 import './App.css';
 
 import ENavbar from './components/ENavbar.js';
