@@ -20,6 +20,12 @@ class ENavbar extends React.Component {
     return (
       <>
         <Navbar variant="dark mb-auto p-4">
+          <a href="https://github.com/jcs-emacs/jcs-emacs"
+             id="ribbon">
+            <img src="https://github.blog/wp-content/uploads/2008/12/forkme_left_gray_6d6d6d.png?resize=149%2C149"
+                 alt="Fork me on GitHub"
+                 data-recalc-dims="1" />
+          </a>
           <Container>
             <Navbar.Brand href="">JCS-EMACS</Navbar.Brand>
             <Nav className="ms-auto">
