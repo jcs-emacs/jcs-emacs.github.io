@@ -39,6 +39,10 @@
 
 body {
   background-color: #1E1E1E;
+  background-image:  url('./etc/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .splide__pagination__page {
