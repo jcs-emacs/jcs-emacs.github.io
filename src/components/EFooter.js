@@ -22,7 +22,7 @@ class EFooter extends React.Component {
           This website is licensed under the{' '}
           <a href="https://creativecommons.org/licenses/by-nd/4.0/">
             CC BY-ND 4.0
-          </a>
+          </a>{' '}
           International License.
         </footer>
       </>);
