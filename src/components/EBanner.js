@@ -9,7 +9,8 @@
 import React from 'react';
 import { Button, Container, Collapse } from 'react-bootstrap';
 
-import banner from '../etc/sink_white.png';
+import banner from '../etc/logo/dark/sink.png';
+import title from '../etc/logo/dark/text.svg';
 
 import { FiDownload } from 'react-icons/fi';
 import { RiInstallFill } from 'react-icons/ri';
@@ -49,7 +50,7 @@ class Ebanner extends React.Component {
             <img src= { banner } alt="banner" />
           </div>
           <div className="text-info h5">
-            [J C S • E M A C S]
+            <img src= { title } alt="title" />
           </div>
           <div className="text-white-50 h6 p-1">
             Emacs configuration works across all OSs
