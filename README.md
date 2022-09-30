@@ -10,6 +10,7 @@
 Landing page for jcs-emacs
 
 [![Build Website](https://github.com/jcs-emacs/jcs-emacs.github.io/actions/workflows/build.yml/badge.svg)](https://github.com/jcs-emacs/jcs-emacs.github.io/actions/workflows/build.yml)
+[![pages-build-deployment](https://github.com/jcs-emacs/jcs-emacs.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/jcs-emacs/jcs-emacs.github.io/actions/workflows/pages/pages-build-deployment)
 
 ## Contribute
 
