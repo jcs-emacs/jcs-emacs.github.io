@@ -5,6 +5,7 @@
 </picture>
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Built with](https://raw.githubusercontent.com/jcs-emacs/badges/161a8e892ac7a9e90cc8add538e49025ebb66b71/others/built-with/dark.svg)](#)
 
 # jcs-emacs.github.io
 Landing page for jcs-emacs
