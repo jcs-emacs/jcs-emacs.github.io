@@ -6,21 +6,20 @@ on:
   pull_request: 
     branches: [ master ]
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
-    
-    - name: Set up Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: '16'
+      uses: actions/checkout@v3
 
     - name: Set up Yarn
       run: npm install --global yarn && yarn --version
-    
+
     - name: Install dependencies
       run: yarn install
 
@@ -28,7 +27,7 @@ jobs:
       run: yarn build
 
     - name: Clone branch gh-pages
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         path: 'gh-pages'
         ref: gh-pages
