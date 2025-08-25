@@ -17,7 +17,7 @@ import { RiInstallFill } from 'react-icons/ri';
 
 class Ebanner extends React.Component {
   state = {
-    install_cmd: 'git clone https://github.com/jcs-emacs/jcs-emacs ~/.emacs.d',
+    install_cmd: 'git clone https://github.com/jcs-emacs/jcs-emacs ~/.emacs.d --recursive',
     open: false,
     copied: false,
   };
