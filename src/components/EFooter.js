@@ -14,7 +14,7 @@ class EFooter extends React.Component {
     return (
       <>
         <footer className="mt-auto text-center text-white p-4">
-          Copyright © 2015–2024{' '}
+          Copyright © 2015–2025{' '}
           <a className="text-reset fw-bold" href="https://jcs-emacs.github.io/">
             jcs-emacs.github.io
           </a>
