@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
 
     - name: Set up Yarn
       run: npm install --global yarn && yarn --version
@@ -27,7 +27,7 @@ jobs:
       run: yarn build
 
     - name: Clone branch gh-pages
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
       with:
         path: 'gh-pages'
         ref: gh-pages
