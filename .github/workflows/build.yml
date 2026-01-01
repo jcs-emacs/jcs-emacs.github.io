@@ -27,7 +27,7 @@ jobs:
       run: yarn build
 
     - name: Clone branch gh-pages
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
       with:
         path: 'gh-pages'
         ref: gh-pages
